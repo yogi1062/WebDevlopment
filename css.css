@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 11, 75);
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px 50px;
+}
+
+.counter {
+    font-size: 60px;
+    margin: 10px;
+    color: #f8b627;
+}
+
